@@ -27,7 +27,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font:400 16px/1.6 var(--s
 button,input,textarea,select{font:inherit;color:inherit}
 button{cursor:pointer}
 :focus-visible{outline:2px solid var(--blue);outline-offset:2px}
-
+ 
 /* layout */
 .app{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100vh}
 .side{position:sticky;top:0;height:100vh;overflow:auto;padding:32px 16px 24px 20px;border-right:1px solid var(--line);display:flex;flex-direction:column}
@@ -41,7 +41,7 @@ button{cursor:pointer}
 .sidenote{margin:auto 12px 0;padding-top:24px;color:var(--muted);font-size:13px;line-height:1.5}
 main{padding:40px clamp(16px,5vw,56px) 96px}
 .col{max-width:780px}
-
+ 
 /* page head */
 .ph h2{margin:0;font:600 28px/1.25 var(--sans);letter-spacing:-.02em}
 .ph p{margin:6px 0 0;color:var(--muted)}
@@ -50,7 +50,7 @@ main{padding:40px clamp(16px,5vw,56px) 96px}
 .searchbar input{width:100%;padding:10px 2px;border:0;border-bottom:1px solid var(--line);background:none;border-radius:0}
 .searchbar input:focus{outline:none;border-bottom:2px solid var(--blue);padding-bottom:9px}
 .toolbar{display:flex;gap:12px;align-items:center;margin:20px 0 4px;color:var(--muted);font-size:14px}
-
+ 
 /* controls */
 .btn{display:inline-block;padding:9px 16px;border:1px solid var(--line);border-radius:6px;background:var(--sheet);font-size:15px;font-weight:500;line-height:1.4}
 .btn:hover{border-color:var(--muted)}
@@ -68,20 +68,20 @@ textarea{resize:vertical;line-height:1.5}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}
 .two>*{margin:0}
 .hint{margin:0 0 12px;color:var(--muted);font-size:14px}
-
+ 
 /* collapsible form */
 details.drop{margin-bottom:8px}
 details.drop>summary{list-style:none;cursor:pointer}
 details.drop>summary::-webkit-details-marker{display:none}
 .drop-body{margin-top:12px;padding:20px;border:1px solid var(--line);border-radius:8px;background:var(--sheet)}
 pre.fmt{margin:0 0 12px;padding:12px 14px;border-left:3px solid var(--blue);background:var(--wash);font:13px/1.65 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;overflow:auto}
-
+ 
 /* date groups */
 .day{display:grid;grid-template-columns:132px minmax(0,1fr);gap:8px 24px;padding:26px 0;border-top:1px solid var(--line)}
 .day-h{position:sticky;top:24px;align-self:start}
 .day-h b{display:block;font:600 18px/1.3 var(--sans)}
 .day-h span{color:var(--muted);font-size:13px}
-
+ 
 /* feedback entry */
 .entry+.entry{margin-top:22px;padding-top:22px;border-top:1px dashed var(--line)}
 .entry-top{display:flex;justify-content:space-between;align-items:center;min-height:26px}
@@ -94,7 +94,7 @@ dl.fields dd{margin:0}
 .why{font-size:15px}
 .sim{font:400 17px/1.55 var(--serif)}
 .plain{font:400 19px/1.5 var(--serif);margin:10px 0 0}
-
+ 
 /* bars */
 .bar-row{display:grid;grid-template-columns:minmax(72px,150px) 1fr 3.4em;align-items:center;gap:14px;padding:9px 0}
 .track{height:10px;border-radius:5px;background:var(--line);overflow:hidden}
@@ -113,13 +113,13 @@ dl.fields dd{margin:0}
 .pair .rt{font:600 24px/1.2 var(--hand);color:var(--blue)}
 .pair small{display:block;color:var(--muted);font-size:12.5px}
 .lead{margin:0 0 18px;font-size:17px}
-
+ 
 /* stats */
 .stats{display:flex;gap:40px;flex-wrap:wrap;margin:4px 0 12px}
 .stats b{display:block;font:500 40px/1 var(--serif);font-variant-numeric:lining-nums}
 .stats span{color:var(--muted);font-size:14px}
 .sect{margin:36px 0 8px;font:600 17px/1.3 var(--sans)}
-
+ 
 /* notes */
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 8px}
 .chip{padding:3px 11px;border:1px solid var(--line);border-radius:999px;background:var(--sheet);font-size:13.5px}
@@ -128,7 +128,7 @@ dl.fields dd{margin:0}
 .note .s{font:400 21px/1.45 var(--serif)}
 .note .m{margin-top:2px}
 .note .meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-top:8px;color:var(--muted);font-size:13px}
-
+ 
 /* review */
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--sheet)}
 .seg button{padding:8px 14px;border:0;background:none;font-size:14px}
@@ -143,7 +143,7 @@ dl.fields dd{margin:0}
 .flash .extra{margin-top:8px;color:var(--muted);font-size:14px}
 .flash .acts{margin-top:28px}
 .cardcount{color:var(--muted);font-size:14px;margin-bottom:14px}
-
+ 
 /* misc */
 .empty{padding:36px 0;color:var(--muted)}
 .empty p{margin:0 0 8px}
@@ -155,7 +155,7 @@ dl.fields dd{margin:0}
 #toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,16px);padding:10px 18px;border-radius:6px;background:var(--ink);color:var(--paper);font-size:14.5px;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s;z-index:20}
 #toast.show{opacity:1;transform:translate(-50%,0)}
 @media (prefers-reduced-motion: reduce){#toast,.rep>summary::after{transition:none}}
-
+ 
 /* mobile */
 @media (max-width:820px){
   .app{display:block}
@@ -203,19 +203,19 @@ dl.fields dd{margin:0}
   </main>
 </div>
 <div id="toast" role="status" aria-live="polite"></div>
-
+ 
 <script>
 // Google Drive API 설정
-const GOOGLE_CLIENT_ID = '748941383970-jreuo0nmg3r79afkunna27aevjoogcdp.apps.googleusercontent.com';
+const GOOGLE_CLIENT_ID = '748941383970-aj29m6iuv2g2ss5djt27enibpa4jkvn4.apps.googleusercontent.com';
 const GOOGLE_SCOPES = 'https://www.googleapis.com/auth/drive.appdata';
 let gapiReady = false, googleAuthInstance = null, googleIsSignedIn = false;
-
+ 
 const KEY = 'englishFeedbackApp.v1';
 let db = load();
 let tab = 'feedback', q = '', fDate = '', noteTag = '';
 let reviewDeck = [], reviewIdx = 0, reviewShow = false, reviewSrc = 'both';
 const formOpen = {fb: false, note: false, json: false, gdrive: false};
-
+ 
 // 유형별 기본 공부 구조와 추천 표현 (피드백에 PATTERN/TIP이 없을 때 사용)
 const PATTERNS = {
   '과거시제': {structure: '주어 + 과거형 동사 (went, saw, met). yesterday, last week 같은 과거 표현과 함께 씀', expr: 'I went to ~ / I met ~ / I got ~'},
@@ -228,7 +228,7 @@ const PATTERNS = {
   '어순': {structure: '주어 + 동사 + 목적어. 빈도부사는 be동사 뒤, 일반동사 앞', expr: 'I always ~ / I am always ~'},
   '어휘 선택': {structure: '비슷한 뜻 단어의 뉘앙스 차이 확인', expr: 'Could you ~? (정중한 부탁)'}
 };
-
+ 
 function load() {
   try {
     const d = JSON.parse(localStorage.getItem(KEY)) || {};
@@ -277,12 +277,12 @@ function initGoogleAPI() {
   };
   document.head.appendChild(script);
 }
-
+ 
 function updateGoogleAuthStatus(isSignedIn) {
   googleIsSignedIn = isSignedIn;
   render();
 }
-
+ 
 function handleSignIn() {
   if (!gapiReady) { toast('구글 API가 아직 준비 중이에요.'); return; }
   googleAuthInstance.signIn().then(() => {
@@ -290,20 +290,20 @@ function handleSignIn() {
     autoSaveToDrive();
   }).catch(err => toast('로그인 실패'));
 }
-
+ 
 function handleSignOut() {
   googleAuthInstance.signOut().then(() => {
     toast('로그아웃했어요.');
     render();
   });
 }
-
+ 
 function autoSaveToDrive() {
   if (!googleIsSignedIn || !gapiReady) return;
   const fileName = `english-feedback-${today()}.json`;
   const fileContent = JSON.stringify(db, null, 2);
   const fileBlob = new Blob([fileContent], {type: 'application/json'});
-
+ 
   window.gapi.client.drive.files.list({
     q: `name='${fileName}' and trashed=false`,
     spaces: 'appDataFolder',
@@ -337,11 +337,11 @@ function autoSaveToDrive() {
     console.error('Drive 저장 오류:', err);
   });
 }
-
+ 
 function loadFromDrive() {
   if (!googleIsSignedIn || !gapiReady) { toast('먼저 구글 계정으로 로그인해주세요.'); return; }
   const fileName = `english-feedback-${today()}.json`;
-
+ 
   window.gapi.client.drive.files.list({
     q: `name='${fileName}' and trashed=false`,
     spaces: 'appDataFolder',
@@ -352,7 +352,7 @@ function loadFromDrive() {
       toast('구글 드라이브에 오늘의 백업이 없어요.');
       return;
     }
-
+ 
     const fileId = res.result.files[0].id;
     window.gapi.client.drive.files.get({fileId, alt: 'media'}).then(res => {
       const d = res.result;
@@ -374,7 +374,7 @@ function loadFromDrive() {
     console.error(err);
   });
 }
-
+ 
 const uid = () => Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
 const today = (offset = 0) => new Date(Date.now() - offset * 86400000).toLocaleDateString('sv-SE');
@@ -393,9 +393,9 @@ function toast(msg) {
 }
 let curHead = '';
 const head = (title, desc) => { curHead = `<header class="ph"><h2>${title}</h2><p>${desc}</p></header>`; return ''; };
-
+ 
 function go(t) { tab = t; window.scrollTo(0, 0); render(); }
-
+ 
 function render() {
   document.querySelectorAll('#nav button').forEach(b => b.classList.toggle('on', b.dataset.t === tab));
   document.querySelector('[data-c="feedback"]').textContent = db.feedback.length || '';
@@ -407,10 +407,10 @@ function render() {
   document.getElementById('view').innerHTML = body;
   document.getElementById('searchBox').style.display = ['feedback', 'notes', 'repeat', 'pattern'].includes(tab) ? 'block' : 'none';
 }
-
+ 
 /* ---------- 1. 날짜별 피드백 ---------- */
 const FIELD = {DATE: 'date', MISTAKE: 'mistake', WHY: 'why', CORRECT: 'correct', SIMILAR: 'similar', CATEGORY: 'category', PATTERN: 'pattern', TIP: 'tip'};
-
+ 
 function parseFeedback(text) {
   const out = [];
   text.split(/(?=^\s*\[DATE\])/mi).filter(c => c.trim()).forEach(chunk => {
@@ -451,7 +451,7 @@ function loadSample() {
   );
   save(); render(); toast('예시 4개를 넣었어요. 필요 없으면 삭제하세요.');
 }
-
+ 
 function entryHTML(f) {
   return `<article class="entry">
     <div class="entry-top">${f.category ? `<span class="cat">${esc(f.category)}</span>` : '<span></span>'}
@@ -463,12 +463,12 @@ function entryHTML(f) {
       <dt>비슷한 예문</dt><dd class="sim">${esc(f.similar) || '-'}</dd>
     </dl></article>`;
 }
-
+ 
 function dayGroup(d, inner) {
   const t = fmtDate(d);
   return `<section class="day"><div class="day-h"><b>${t.md}</b><span>${t.wd} ${t.y}</span></div><div>${inner}</div></section>`;
 }
-
+ 
 function importJSONText() {
   const jsonText = document.getElementById('jsonText').value.trim();
   if (!jsonText) { toast('JSON을 입력해주세요.'); return; }
@@ -482,7 +482,7 @@ function importJSONText() {
     toast('올바른 JSON 형식이 아니에요: ' + e.message);
   }
 }
-
+ 
 function vFeedback() {
   let h = head('날짜별 피드백', '클로드가 알려준 교정을 날짜별로 모았어요.');
   h += `<details class="drop" ${formOpen.json ? 'open' : ''} ontoggle="formOpen.json=this.open">
@@ -507,18 +507,18 @@ function vFeedback() {
       <textarea id="imp" rows="8" placeholder="여기에 붙여넣기" aria-label="붙여넣을 피드백"></textarea>
       <div style="margin-top:10px"><button class="btn primary" onclick="importFeedback()">저장</button></div>
     </div></details>`;
-
+ 
   if (!db.feedback.length) {
     return h + `<div class="empty"><p>아직 저장된 피드백이 없어요.</p>
       <p>위 버튼으로 첫 피드백을 붙여넣거나, 화면이 어떻게 보이는지 예시로 먼저 확인해보세요.</p>
       <button class="btn" onclick="loadSample()">예시 넣어보기</button></div>`;
   }
-
+ 
   const dates = allDates();
   h += `<div class="toolbar"><label for="fd">날짜</label>
     <select id="fd" onchange="fDate=this.value;render()"><option value="">전체</option>
     ${dates.map(d => `<option value="${d}" ${fDate === d ? 'selected' : ''}>${d}</option>`).join('')}</select></div>`;
-
+ 
   const list = db.feedback.filter(f => (!fDate || f.date === fDate) &&
     matches([f.mistake, f.correct, f.why, f.similar, f.category].join(' ')));
   if (!list.length) return h + '<div class="empty"><p>조건에 맞는 피드백이 없어요. 검색어나 날짜를 바꿔보세요.</p></div>';
@@ -527,7 +527,7 @@ function vFeedback() {
   Object.keys(groups).sort().reverse().forEach(d => { h += dayGroup(d, groups[d].map(entryHTML).join('')); });
   return h;
 }
-
+ 
 /* ---------- 2. 내 학습 노트 (직접 입력) ---------- */
 function addNote() {
   const sentence = document.getElementById('nSen').value.trim();
@@ -545,7 +545,7 @@ function delNote(id) {
   db.notes = db.notes.filter(n => n.id !== id); save(); render();
 }
 function setNoteTag(el) { noteTag = el.dataset.t; render(); }
-
+ 
 function vNotes() {
   const tags = [...new Set(db.notes.flatMap(n => n.tags))].sort();
   let h = head('내 학습 노트', '직접 공부한 문장과 표현을 모아두는 곳이에요.');
@@ -558,13 +558,13 @@ function vNotes() {
       <div class="field"><input id="nTags" placeholder="태그 (쉼표로 구분: 과거시제, 일상 표현)" aria-label="태그"></div>
       <button class="btn primary" onclick="addNote()">저장</button>
     </div></details>`;
-
+ 
   if (!db.notes.length) return h + '<div class="empty"><p>아직 저장된 문장이 없어요.</p><p>위 버튼으로 오늘 공부한 문장을 추가해보세요.</p></div>';
-
+ 
   if (tags.length) h += `<div class="chips" role="group" aria-label="태그 필터">
     <button class="chip ${noteTag === '' ? 'on' : ''}" data-t="" onclick="setNoteTag(this)">전체</button>
     ${tags.map(t => `<button class="chip ${noteTag === t ? 'on' : ''}" data-t="${esc(t)}" onclick="setNoteTag(this)">${esc(t)}</button>`).join('')}</div>`;
-
+ 
   const list = db.notes.filter(n => (!noteTag || n.tags.includes(noteTag)) &&
     matches([n.sentence, n.meaning, n.source, n.tags.join(' ')].join(' ')))
     .sort((a, b) => b.date.localeCompare(a.date) || b.created - a.created);
@@ -579,7 +579,7 @@ function vNotes() {
   });
   return h + '</div>';
 }
-
+ 
 /* ---------- 3. 반복 교정 ---------- */
 function barsHTML(entries) {
   const max = Math.max(...entries.map(e => e[1]), 1);
@@ -595,7 +595,7 @@ function vRepeat() {
   const arr = Object.entries(groups).sort((a, b) => b[1].length - a[1].length);
   if (!arr.length) return h + `<div class="empty"><p>${db.feedback.length ? '검색어에 맞는 교정이 없어요.' : '아직 교정 기록이 없어요.'}</p>
     <p>피드백을 저장하면 같은 유형끼리 자동으로 모여요.</p></div>`;
-
+ 
   h += `<p class="lead">가장 자주 교정받은 유형은 <span class="hl">${esc(arr[0][0])}</span> (${arr[0][1].length}회)예요.</p>`;
   arr.forEach(([k, items]) => {
     const max = arr[0][1].length, n = items.length, hot = n >= 3;
@@ -608,7 +608,7 @@ function vRepeat() {
   });
   return h;
 }
-
+ 
 /* ---------- 4. 날짜별 문장구조 · 추천 표현 ---------- */
 function vPattern() {
   let h = head('문장구조·추천 표현', '그날 교정받은 내용을 바탕으로 복습할 구조와 표현이에요.');
@@ -630,7 +630,7 @@ function vPattern() {
   return any ? h : h + `<div class="empty"><p>${db.feedback.length ? '검색어에 맞는 항목이 없어요.' : '아직 정리할 내용이 없어요.'}</p>
     <p>피드백을 저장하면 날짜별 공부 포인트가 여기에 정리돼요.</p></div>`;
 }
-
+ 
 /* ---------- 5. 주간 요약 ---------- */
 function vWeek() {
   const thisWeek = new Set([0, 1, 2, 3, 4, 5, 6].map(i => today(i)));
@@ -646,7 +646,7 @@ function vWeek() {
     : cur.length < prev.length ? `지난 7일(${prev.length}개)보다 ${prev.length - cur.length}개 줄었어요.`
     : cur.length > prev.length ? `지난 7일(${prev.length}개)보다 ${cur.length - prev.length}개 늘었어요. 자주 틀린 유형을 먼저 복습해보세요.`
     : `지난 7일과 같은 ${cur.length}개예요.`;
-
+ 
   let h = head('주간 요약', '최근 7일 동안의 기록이에요.');
   h += `<div class="stats"><div><b>${days}</b><span>대화한 날</span></div>
     <div><b>${cur.length}</b><span>교정받은 문장</span></div>
@@ -660,7 +660,7 @@ function vWeek() {
     : '<p class="empty" style="padding:8px 0">없음</p>';
   return h;
 }
-
+ 
 /* ---------- 6. 복습 모드 (플래시카드) ---------- */
 function startReview(src) {
   if (src) reviewSrc = src;
@@ -680,7 +680,7 @@ document.addEventListener('keydown', e => {
   if (['INPUT', 'TEXTAREA', 'SELECT', 'BUTTON'].includes(e.target.tagName)) return;
   if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); reviewShow ? nextCard() : showCard(); }
 });
-
+ 
 function vReview() {
   const seg = `<div class="seg" role="group" aria-label="복습 대상">
     ${[['both', '전체'], ['notes', '내 학습 노트'], ['feedback', '교정받은 문장']].map(([v, l]) =>
@@ -702,7 +702,7 @@ function vReview() {
         <span class="extra" style="margin-left:10px">스페이스바로도 넘길 수 있어요</span></div>
     </div>`;
 }
-
+ 
 /* ---------- 7. 백업 · 내보내기 ---------- */
 function download(name, text, type) {
   const a = document.createElement('a');
@@ -744,11 +744,11 @@ function clearAll() {
 }
 function vData() {
   let h = head('백업·내보내기', '기록은 이 브라우저에만 저장돼요. 브라우저 데이터를 지우기 전에 백업하세요.');
-
+ 
   h += `<section class="data-sec"><h3>☁️ 구글 드라이브 동기화</h3>
     <p>모든 기록을 구글 드라이브에 자동으로 백업하고, 다른 기기에서 동기화해요.</p>
     <div class="acts">`;
-
+ 
   if (!gapiReady) {
     h += `<button class="btn primary" onclick="initGoogleAPI()">구글 드라이브 연결하기</button></div></section>`;
   } else if (!googleIsSignedIn) {
@@ -759,7 +759,7 @@ function vData() {
     <button class="btn" onclick="handleSignOut()">로그아웃</button></div>
     <p style="color:var(--muted);font-size:14px;margin-top:8px">✅ 구글 계정으로 연결됐어요. 변경사항이 자동으로 동기화됩니다.</p></section>`;
   }
-
+ 
   h += `<section class="data-sec"><h3>백업과 복원</h3><p>모든 피드백과 학습 노트를 JSON 파일로 저장하거나, 저장해둔 파일에서 되돌려요.</p>
     <div class="acts"><button class="btn primary" onclick="exportJSON()">백업 파일 받기</button>
     <label class="btn" tabindex="0" onkeydown="if(event.key==='Enter')this.querySelector('input').click()">백업에서 복원<input type="file" accept=".json" onchange="importJSON(this.files[0])" style="display:none"></label></div></section>
@@ -767,10 +767,10 @@ function vData() {
     <button class="btn" onclick="exportMD()">Markdown 받기</button></section>
   <section class="data-sec"><h3>모든 기록 삭제</h3><p>피드백과 학습 노트가 모두 지워져요.</p>
     <button class="btn danger" onclick="clearAll()">모든 기록 삭제</button></section>`;
-
+ 
   return h;
 }
-
+ 
 document.getElementById('nav').addEventListener('click', e => {
   const b = e.target.closest('button[data-t]'); if (b) go(b.dataset.t);
 });
@@ -779,3 +779,4 @@ render();
 </script>
 </body>
 </html>
+ 
